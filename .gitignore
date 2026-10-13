@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Heavy files
+runs/
+models/*.pt
+data/train/
+data/val/
+data/test/
+*.onnx
+*.engine
